@@ -174,3 +174,34 @@ body {
         gap: 30px;
     }
 }
+
+/* START MEDIA 768px */
+@media (max-width:768px) {}
+
+
+/* START MEDIA 576px */
+@media (max-width:576px) {
+    .hero {
+        height: 100vh;
+    }
+
+    .hero .social-media::before {
+        content: "";
+        background-color: #fff;
+        height: 190px;
+        width: 1px;
+        position: absolute;
+        left: 15px;
+        top: -230px;
+    }
+
+    .hero .social-media::after {
+        content: "";
+        background-color: #fff;
+        height: 190px;
+        width: 1px;
+        position: absolute;
+        left: 15px;
+        bottom: -230px;
+    }
+}
